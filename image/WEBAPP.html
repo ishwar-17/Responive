@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost/webapp/webapp.php -->
+<html ng-app="app"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>WEBAPP</title>
+		 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!------CSS START------>
+			<link rel="stylesheet" href="./WEBAPP_files/bootstrap.min.css">
+			<link rel="stylesheet" href="./WEBAPP_files/font-awesome.min.css">
+			<link rel="stylesheet" href="./WEBAPP_files/animate.css">
+			<link rel="stylesheet" href="./WEBAPP_files/webapp.css">
+		<!-----CSS ENDS-------->
+		
+		<!------JS START------->
+			<script src="./WEBAPP_files/jquery.min.js"></script>
+			<script src="./WEBAPP_files/bootstrap.min.js"></script>
+			<script type="text/javascript">
+			function myFunction() {
+				 var categoryId = $('#categoryId').val();
+				 var manager=$("#manager").val();
+				 alert(manager);
+              var dataString = "categoryId="+categoryId;
+              $.ajax({
+                type: "GET",
+                url: "login.php",
+                data: dataString,
+                success: function(response)
+                {
+
+                  console.log(response)
+				  if(response)
+				  {
+					  window.location.href='login.php?manager';
+				  }
+                  //$('#downdrop').dropdown();
+                }
+              });
+			}
+			
+			function myFunction2() {
+				 var categoryId = $('#categoryId').val();
+				 var manager=$("#manager").val();
+				 alert(manager);
+              var dataString = "categoryId="+categoryId;
+              $.ajax({
+                type: "GET",
+                url: "login.php",
+                data: dataString,
+                success: function(response)
+                {
+
+                  console.log(response)
+				  if(response)
+				  {
+					  window.location.href='login.php?member';
+				  }
+                  //$('#downdrop').dropdown();
+                }
+              });
+			}
+			</script>
+		<!-------JS ENDS-------->
+		
+	</head>
+	<body>
+		<!-----CONTAINER FLUID STARTS------->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-6 maincolumns">
+						<div class="row">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<h3 class="loginpage">LOGIN PAGE</h3>
+								</div>
+							</div>
+							<div class="col-md-6 text-center" id="manager" value="manager" onclick="myFunction()">
+								<h3 class="insidecol">MANAGER</h3>
+							</div>
+							<div class="col-md-6 text-center">
+								<h3 class="insidecol1" onclick="myFunction2()">MEMBER</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		<!-----CONTAINER FLUID ENDS------->
+	
+</body></html>

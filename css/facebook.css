@@ -1,0 +1,165 @@
+.loginbtn{
+	margin:34px 0px;
+	
+}
+.contain{
+	background:#3a5795;
+}
+.logincolor{
+	background-color: #5b74a8;
+    border-color: #2f477a #29447e #1a356e;
+	color:#fff;
+	font-weight:bold;
+}
+.tagname{
+	padding-top:1%;
+}
+.tagtitle{
+	font-size:39px;
+	color:#fff;
+	font-weight: bold;
+}
+.emailtext{
+	width:100%;
+}
+.passtext{
+	width:100%;
+}
+.downcontent{
+	margin:24px 0px
+}
+.facebookcontent{
+	font-size:23px;
+	color:#0e385f;
+	font-weight:bold;
+	line-height:29px;
+}
+.createacc{
+	padding-left: 8%;
+	font-weight:bold;
+	color:#333;
+}
+.contentacc{
+	font-size: 18px;
+    padding-left: 9%;
+	color:#141823;
+}
+.col-xs-12 {
+    margin-top: 11px;
+}
+.colrow{
+	background: linear-gradient(white, #D3D8E8);
+}
+.formcontent{
+	font-size:18px;
+}
+.brithdate{
+	padding-top: 9%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 21%;
+}
+.monthbrith{
+	padding-top: 9%;
+    padding-bottom: 5%;
+    padding-left: 22%;
+    padding-right: 14%;
+}
+.yearbrith{
+	padding-top: 9%;
+    padding-bottom: 5%;
+    padding-left:4%;
+}
+.colmonth{
+	padding-left:0px;
+	
+}
+.coldate{
+	padding-right:0px;
+}
+.colyear{
+	padding-left:0px;
+}
+.whydo1{
+	font-size:14px;
+	line-height:26px;
+	color:#777;
+}
+.whydo{
+	font-size:14px;
+	color:#777;
+}
+.createbtn{
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+	color:#fff;
+	font-size:19px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	letter-spacing: 1px;
+	cursor: pointer;
+	
+	padding: 7px 20px;
+}
+.createbtn:hover{
+	background: linear-gradient(#79bc64, #578843);
+	color:#fff;
+}
+.createpage{
+	border-top: 1px solid #a0a9c0;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.email{
+	text-align:left; 
+	color:#fff;
+}
+.having{
+	text-align:left; 
+	color:#9daccb;
+}
+.uiList{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	display: inline-flex;
+	padding-top: 10px;
+}
+.uiList>li{
+	padding-left:13px;
+}
+.showMore{
+	background-color: #ddd;
+    padding-right: 3px;
+    text-align: center;
+    padding-left: 19%;
+}
+.showMore:hover{
+	background-color:#3a5795;
+	color:#fff;
+}
+#contentCurve {
+    border-bottom: 1px solid #ccc;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+.navigationGrid {
+    line-height: 29px;
+   
+}
+.navigationGrid td {
+    padding-right: 10px;
+	font-size:13px;
+}
+.mvl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copyright {
+    font-size: 11px;
+}

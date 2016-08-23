@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<title>Facebook- Log In or Sign Up</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="image/facebook.jpg" type="image/x-icon">
+		<!------CSS START------>
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/animate.css">
+			<link rel="stylesheet" href="css/facebook.css">
+		<!-----CSS ENDS-------->
+		
+		<!------JS START------->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+		<!------JS ENDS-------->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row contain">
+				<div class="col-md-6 col-xs-12 text-center tagname">
+					<h3 class="tagtitle"><i class="fa fa-facebook" aria-hidden="true"></i>acebook</h3>
+				</div>
+				<div class="col-md-2 col-xs-6 col-sm-6 text-center">	
+					<form>
+						<h5 style="text-align:left; color:#fff;">Email or Phone</h5>
+						<input type="text" name="email" class="emailtext">
+					</form>
+				</div>
+				<div class="col-md-2 col-xs-6 col-sm-6 text-center">	
+					<form>
+						<h5 class="email">Email or Phone</h5>
+						<input type="text" name="email" class="passtext">
+						<a href="#"><h5 class="having">Having trouble?</h5></a>
+					</form>
+				</div>
+				<div class="col-md-2 loginbtn">
+					<button type="button" class="logincolor" value="LOGIN">Log In</button>
+				</div>
+			</div>
+			<div class="row colrow">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 hidden-xs hidden-sm downcontent">
+					<p class="facebookcontent">Facebook helps you connect and share with the people in your life.</p><br>
+					<img src="image/connect.png">
+				</div>
+				<div class="col-md-5 col-xs-12">
+					<h2 class="createacc">Create an account</h2>
+					<p class="contentacc">It's free and always will be.</p>
+					<br>
+					<form>
+						<div class="row">
+							<div class="col-md-1 col-sm-1"></div>
+							<div class="col-sm-5 col-xs-12 col-sm-6">
+								<input type="text" class="form-control formcontent" placeholder="First Name">
+							</div>
+							<div class="col-sm-5 col-xs-12 col-sm-6">
+								<input type="text" class="form-control formcontent" placeholder="Last Name">
+							</div>
+							<div class="col-md-1 col-sm-1"></div>
+						</div>
+					    <div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-10 col-xs-12 col-sm-10">
+								<input type="text" class="form-control formcontent" placeholder="Mobile number or email address">
+							</div>
+							<div class="col-md-1col-xs-1 col-sm-1"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-10 col-xs-12 col-sm-10">
+								<input type="text" class="form-control formcontent" placeholder="Re-enter mobile number or email address">
+							</div>
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-10 col-xs-12 col-sm-10">
+								<input type="password" class="form-control formcontent" placeholder="New password">
+							</div>
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<p class="contentacc">Brithday</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1 col-sm-1 col-sm-1"></div>
+							<div class="col-md-2 col-xs-3 col-sm-3 coldate">
+								<select class="brithdate">
+								  <option value="Day">Day</option>
+								  <option value="val1">1</option>
+								  <option value="val2">2</option>
+								  <option value="val3">3</option>
+								  <option value="val4">4</option>
+								  <option value="val5">5</option>
+								  <option value="val6">6</option>
+								  <option value="val7">7</option>
+								  <option value="val8">8</option>
+								  <option value="val9">9</option>
+								  <option value="val10">10</option>
+								  <option value="val11">11</option>
+								  <option value="val12">12</option>
+								  <option value="val13">13</option>
+								  <option value="val14">14</option>
+								  <option value="val15">15</option>
+								  <option value="val16">16</option>
+								  <option value="val17">17</option>
+								  <option value="val18">18</option>
+								  <option value="val19">19</option>
+								  <option value="val20">20</option>
+								  <option value="val21">21</option>
+								  <option value="val22">22</option>
+								  <option value="val23">23</option>
+								  <option value="val24">24</option>
+								  <option value="val25">25</option>
+								  <option value="val26">26</option>
+								  <option value="val27">27</option>
+								  <option value="val28">28</option>
+								  <option value="val29">29</option>
+								  <option value="val30">30</option>
+								   <option value="val31">31</option>
+								</select>
+							</div>
+							<div class="col-md-2 col-xs-3 col-sm-3 colmonth">
+								<select class="monthbrith">
+								  <option value="month">Month</option>
+								  <option value="jan">Jan</option>
+								  <option value="feb">Feb</option>
+								  <option value="march">March</option>
+								  <option value="april">April</option>
+								  <option value="may">May</option>
+								  <option value="june">June</option>
+								  <option value="july">July</option>
+								  <option value="aug">Aug</option>
+								  <option value="sept">Sept</option>
+								  <option value="oct">Oct</option>
+								  <option value="nov">Nov</option>>
+								  <option value="dec">Dec</option>
+								</select>
+							</div>
+							<div class="col-md-2 col-xs-3 col-sm-3 colyear">
+								<select class="yearbrith">
+								  <option value="month">1991</option>
+								  <option value="jan">1992</option>
+								  <option value="feb">1993</option>
+								  <option value="march">1994</option>
+								  <option value="april">1995</option>
+								  <option value="may">1996</option>
+								  <option value="june">1997</option>
+								  <option value="july">1998</option>
+								  <option value="aug">1999</option>
+								  <option value="sept">2000</option>
+								  <option value="oct">2001</option>
+								  <option value="nov">2002</option>>
+								  <option value="dec1">2004</option>
+								  <option value="dec2">2005</option>
+								  <option value="dec3">2006</option>
+								  <option value="dec4">2007</option>
+								  <option value="dec5">2008</option>
+								  <option value="dec6">2009</option>
+								  <option value="dec7">2010</option>
+								  <option value="dec8">2011</option>
+								  <option value="dec9">2012</option>
+								  <option value="dec10">2013</option>
+								  <option value="dec11">2014</option>
+								  <option value="dec12">2015</option>
+								  <option value="dec13">2016</option>
+								</select>
+							</div>
+							<div class="col-md-5 col-md-pull-1 col-sm-8 col-xs-10">
+								<p class="whydo">Why do I need to provide date & brith?</p>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-2 col-xs-3">
+								<input type="radio" name="gender" value="male"> Male
+							</div>
+							<div class="col-md-3 col-xs-4">
+								<input type="radio" name="gender" value="female"> Female
+							</div>
+						
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-10 col-xs-12 col-sm-10">
+								<p class="whydo1">By clicking Create an account, you agree our <a href="#">Terms</a> and that you have read <a href="#">Data Policy</a>, incuding our <a href="#">Cookie Use.</a></p>
+							</div>
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-6">
+								<button class="btn btn-md createbtn">Create an account</button> 
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-sm-1"></div>
+							<div class="col-md-11 col-sm-10">
+								<p class="createpage"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+							</div>
+						</div>
+					</form>
+					<br>
+					
+				</div>
+				<div class="col-md-1 col-xs-1 col-sm-1"></div>
+			</div>
+		
+		
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 hidden-xs hidden-sm">
+					<ul class="uiList localeSelectorList">
+						<li><a  href="#">English (UK)</a></li>
+						<li><a href="#">मराठी</a></li>
+						<li><a href="#">हिन्दी</a></li>
+						<li><a href="#">اردو</a></li>
+						<li><a href="#">ગુજરાતી</a></li>
+						<li><a href="#">ಕನ್ನಡ</a></li>
+						<li><a href="#">ਪੰਜਾਬੀ</a></li>
+						<li><a href="#">தமிழ்</a></li>
+						<li><a href="#">বাংলা</a></li>
+						<li><a href="#">తెలుగు</a></li>
+						<li><a class="showMore" href="#" role="button">…</a></li>
+					</ul>
+					<div id="contentCurve"></div>
+					<div class="row">
+						<div class="col-md-12 hidden-xs hidden-sm">
+						<table class="uiGrid _51mz navigationGrid" cellspacing="0" cellpadding="0">
+							<tbody>
+								<tr class="">
+									<td class=""><a href="#">Sign Up</a></td>
+									<td class=""><a href="#">Log In</a></td>
+									<td class=""><a href="#">Messenger</a></td>
+									<td class=""><a href="#">Facebook Lite</a></td>
+									<td class=""><a href="#">Mobile</a></td>
+									<td class=""><a href="#">Find Friends</a></td>
+									<td class=""><a href="#">Badges</a></td>
+									<td class=""><a href="">People</a></td>
+									<td class=""><a href="#">Pages</a></td>
+									<td class=""><a href="#">Places</a></td>
+									<td class=""><a href="#">Games</a></td>
+								</tr>
+								<tr class="">
+									<td class=""><a href="#">Locations</a></td>
+									<td class=""><a href="#">Celebrities</a></td>
+									<td class=""><a href="#">Groups</a></td>
+									<td class=""><a href="#">About</a></td>
+									<td class=""><a href="#">Create Advert</a></td>
+									<td class=""><a href="#">Create Page</a></td>
+									<td class=""><a href="#">Developers</a></td>
+									<td class=""><a href="#">Careers</a></td>
+									<td class=""><a href="#">Privacy</a></td>
+									<td class=""><a href="#">Cookies</a></td>
+									<td class=""><a class="_41ug" href="#">AdChoices<i class="img sp_Q8vBoFGMqbY sx_6da3e6"></i></a></td>
+								</tr>
+								<tr class="">
+									<td class=""><a href="#">Terms</a></td>
+									<td class=""><a href="#">Help</a></td>
+									<td class=""><a class="accessible_elem" accesskey="6" href="#">Settings</a></td>
+									<td class=""><a class="accessible_elem" accesskey="7" href="#">Activity Log</a></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="mvl copyright"><div><span> Facebook © 2016</span></div></div>
+						</div>
+					</div>
+					<br>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</body>
+</html>
